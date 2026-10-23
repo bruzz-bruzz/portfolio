@@ -81,6 +81,9 @@ export default function App(){
           <p className='text-lg text-slate-600'>Programming and AI have captivated me since I was a middle-schooler. Now, I hope to contribute to society whilst pursuing my interests of programming and AI.</p>
       </header>
       <main className="max-w-4xl mx-auto px-6 pb-16">
+        <section className='mb-2'>
+          <img src='https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light'></img>
+        </section>
         <section className='mb-16'>
           <h4 className='text-2xl font-semibold mb-6'>Languages and Tools</h4>
           {isLoading || isLoadingCP && (
